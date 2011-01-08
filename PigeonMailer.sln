@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mailer", "Mailer\Mailer.csproj", "{0BB1D18F-3C7B-44C1-AEE7-4D3A16CE8F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailerTests", "MailerTests\MailerTests.csproj", "{441D0F94-4C73-4A1C-ADC1-323903BC1D46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA99301D-1B1D-4440-8C5B-41EB56544814}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PigeonMailer1.vsmdi = PigeonMailer1.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PigeonMailer1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB1D18F-3C7B-44C1-AEE7-4D3A16CE8F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB1D18F-3C7B-44C1-AEE7-4D3A16CE8F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB1D18F-3C7B-44C1-AEE7-4D3A16CE8F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB1D18F-3C7B-44C1-AEE7-4D3A16CE8F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441D0F94-4C73-4A1C-ADC1-323903BC1D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441D0F94-4C73-4A1C-ADC1-323903BC1D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441D0F94-4C73-4A1C-ADC1-323903BC1D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441D0F94-4C73-4A1C-ADC1-323903BC1D46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
