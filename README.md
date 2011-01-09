@@ -26,7 +26,7 @@ Set the recipient of the message. You can set as many you want
 ### How Pigeon treats your templates ###
 There are two ways to define values for your templates:
 
-###### The Parameters way ######
+#### The Parameters way ####
 Add key,values pair to the Parameters property.
 Let's say we have this template:
 	Hello {name},
@@ -48,7 +48,7 @@ Then to add values:
 	//tell Pigeon do its job
 	template.ProcessTemplate();
 
-###### The Object way ######
+#### The Object way ####
 Create a instance of any object which contains the values to populate your template.
 Let's say we have this template:
 	Hello {name},
