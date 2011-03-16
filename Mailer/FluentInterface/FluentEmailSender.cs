@@ -33,9 +33,15 @@ namespace PigeonMailer.FluentInterface
             return this;
         }
 
-        public FluentEmailSender IsHtml(bool value)
+        public FluentEmailSender IsHtml()
         {
-            this.emailTemplate.IsHtml = value;
+            this.emailTemplate.IsHtml = true;
+            return this;
+        }
+
+        public FluentEmailSender EnableSsl()
+        {
+            this.emailTemplate.EnableSsl = true;
             return this;
         }
 

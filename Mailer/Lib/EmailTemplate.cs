@@ -27,6 +27,7 @@ namespace PigeonMailer.Lib
         public string Body { get; set; }
         public string Subject { get; set; }
         public Boolean IsHtml { get; set; }
+        public Boolean EnableSsl { get; set; }
         public string FromAddress { get; set; }
         public string FromName { get; set; }
 

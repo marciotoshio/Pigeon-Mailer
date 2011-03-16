@@ -9,7 +9,9 @@ namespace PigeonMailer.Lib
         {
             this.template = template;
             var message = CreateMessage();
-            new SmtpClient().Send(message);
+            var client = new SmtpClient();
+            client.EnableSsl = template.EnableSsl;
+            client.Send(message);
         }
 
         private MailMessage CreateMessage()
